@@ -1,0 +1,83 @@
+#page-thank{
+    background: var(--color-primary);
+}
+#page-thank #container{
+    color: var(--color-text-in-primary);
+}
+.logo-container img{
+    height: 5rem;
+    width: 5rem;
+}
+.logo-container{
+    text-align: center;
+    position: absolute;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    margin-left: 6.9rem;
+    margin-right: 12rem;
+}
+
+p #text-confirm{
+    width: 50px;
+    text-align: center;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-content: center;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+    position: relative;
+    margin-top: 0;
+    text-align: center;
+}
+
+.buttons-container a{
+    width: 15rem;
+    height: 5rem;
+
+    border-radius:0.8rem;
+    margin-right: 1.6rem;
+
+    font: 700 1.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    color: var(--color-button-text);
+}
+
+.buttons-container a.list{
+    background: var(--color-secondary);
+}
+.buttons-container a.list:hover{
+    background: var(--color-secondary-dark);
+}
+
+@media (min-width: 700px){
+    #page-thank #container{
+        max-width: 100vw;
+    }
+    .hero-image{
+        width: 70%;
+        height: 50%;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+    }
+
+}
